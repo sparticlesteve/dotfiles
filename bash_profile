@@ -30,6 +30,9 @@ fi
 export AtlasSetup=/afs/cern.ch/atlas/software/dist/AtlasSetup
 alias asetup='source $AtlasSetup/scripts/asetup.sh'
 
+# Evernote email address
+export EVERNOTEMAIL=sparticlesteve.1ba49@m.evernote.com
+
 # Setup aliases and functions
 source ~/.aliases
 

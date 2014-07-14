@@ -1,0 +1,15 @@
+[color]
+	ui = 1
+[user]
+	name = Steve Farrell
+	email = sfarrell@cern.ch
+[core]
+	editor = vim
+[alias]
+        br = branch
+	co = checkout
+	ci = commit
+	cm = commit
+	p = push
+	a = add -u
+	st = status -s

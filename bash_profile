@@ -1,9 +1,9 @@
-###########################################################################
-#                         LOGON MOTHER FUCKER!!!                          #
-###########################################################################
+#!/bin/bash
 
-echo "Welcome to CERN AFS"
-echo "In my .bash_profile"
+# .bash_profile
+# Common environment setup
+
+echo "Welcome to $HOSTNAME"
 
 # Configure the prompt
 PS1="[\h \W]> "

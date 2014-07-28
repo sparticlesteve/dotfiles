@@ -12,4 +12,4 @@
 	cm = commit
 	p = push
 	a = add -u
-	st = status -s
+	st = status

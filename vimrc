@@ -21,6 +21,10 @@ set expandtab
 "Modeline option, enable file specific settings
 set modeline
 
+"Shell script settings
+autocmd FileType sh set shiftwidth=4
+autocmd FileType sh set smarttab
+
 "Python settings
 autocmd FileType python set shiftwidth=4
 autocmd FileType python set smarttab

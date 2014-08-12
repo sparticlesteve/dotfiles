@@ -21,14 +21,16 @@ else
     #export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/SusyAna_2012
     #export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/XAODTutorialRoot
     #export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/XAODTutorialAthena
+    #export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/XAODTutorialDerivations
     export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/Pat_2014
     export TestArea=$WORKAREA
 fi
 
 # Atlas software setup procedure
 # Should now use setupATLAS instead
-export AtlasSetup=/afs/cern.ch/atlas/software/dist/AtlasSetup
-alias asetup='source $AtlasSetup/scripts/asetup.sh'
+#export AtlasSetup=/afs/cern.ch/atlas/software/dist/AtlasSetup
+#alias asetup='source $AtlasSetup/scripts/asetup.sh'
+setupATLAS
 
 # Evernote email address
 export EVERNOTEMAIL=sparticlesteve.1ba49@m.evernote.com

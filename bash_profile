@@ -18,10 +18,6 @@ if [[ $HOSTNAME = "pcuci01" ]]; then
     export WORKAREA=/work/sfarrell/AtlasOffline-Any/SusyAna_2012
     export TestArea=$WORKAREA
 else
-    #export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/SusyAna_2012
-    #export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/XAODTutorialRoot
-    #export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/XAODTutorialAthena
-    #export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/XAODTutorialDerivations
     export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/Pat_2014
     export TestArea=$WORKAREA
 fi

@@ -1,0 +1,5 @@
+[defaults]
+testarea = <pwd>
+briefprint = True
+save = True
+autorestore = True

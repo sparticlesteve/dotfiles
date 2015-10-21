@@ -13,3 +13,5 @@
 	p = push
 	a = add -u
 	st = status
+        lg = log --graph --oneline --decorate --branches
+        bg = log --graph --oneline --decorate --branches --simplify-by-decoration

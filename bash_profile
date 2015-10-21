@@ -18,15 +18,15 @@ if [[ $HOSTNAME = "pcuci01" ]]; then
     export WORKAREA=/work/sfarrell/AtlasOffline-Any/SusyAna_2012
     export TestArea=$WORKAREA
 else
-    export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea/Pat_2014
+    export WORKAREA=/afs/cern.ch/work/s/sfarrell/workarea
     export TestArea=$WORKAREA
 fi
 
 # Atlas software setup procedure
-# Should now use setupATLAS instead
-#export AtlasSetup=/afs/cern.ch/atlas/software/dist/AtlasSetup
-#alias asetup='source $AtlasSetup/scripts/asetup.sh'
 setupATLAS
+
+# Rucio account setting
+export RUCIO_ACCOUNT=$USER
 
 # Evernote email address
 export EVERNOTEMAIL=sparticlesteve.1ba49@m.evernote.com

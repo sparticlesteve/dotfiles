@@ -15,3 +15,4 @@
 	st = status
         lg = log --graph --oneline --decorate --branches
         bg = log --graph --oneline --decorate --branches --simplify-by-decoration
+        g = log --graph --all --date=short --pretty=format:'%Cred%h%Creset %ad %s %C(yellow)%d%Creset %C(bold blue)<%an>%Creset'

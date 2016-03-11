@@ -21,9 +21,15 @@ set expandtab
 "Modeline option, enable file specific settings
 set modeline
 
+" Testing File-type based indentation
+filetype plugin indent on
+
 "Shell script settings
 autocmd FileType sh set shiftwidth=4
 autocmd FileType sh set smarttab
+
+"C++ settings
+autocmd FileType cpp set shiftwidth=2
 
 "Python settings
 autocmd FileType python set shiftwidth=4

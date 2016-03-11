@@ -5,10 +5,9 @@
 
 echo "Welcome to $HOSTNAME"
 
-# Configure the prompt
-PS1="[\h \W]> "
-# Alternate
-#PS1="\h(\W)> "
+# Configure the prompt. Shows current git branch :)
+PS1='[\h \W$(__git_ps1 " (%s)")]> '
+#PS1="[\h \W]> "
 
 # Fix the macbook erase key
 stty erase '^?'

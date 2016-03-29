@@ -24,6 +24,12 @@ set modeline
 " Testing File-type based indentation
 filetype plugin indent on
 
+" Doxygen syntax highlighting
+let g:load_doxygen_syntax=1
+let g:DoxygenToolkit_commentType = "C++"
+let g:DoxygenToolkit_authorName="Steve Farrell <Steven.Farrell@cern.ch>"
+let g:DoxygenToolkit_briefTag_className = "yes"
+
 "Shell script settings
 autocmd FileType sh set shiftwidth=4
 autocmd FileType sh set smarttab

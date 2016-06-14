@@ -1,1 +1,6 @@
 shell -$SHELL
+
+altscreen on
+
+# keep scrollback n lines
+defscrollback 5000

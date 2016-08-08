@@ -21,7 +21,7 @@ set expandtab
 "Modeline option, enable file specific settings
 set modeline
 
-" Testing File-type based indentation
+"File-type based indentation
 filetype plugin indent on
 
 " Doxygen syntax highlighting
@@ -51,3 +51,7 @@ autocmd FileType matlab set smarttab
 
 "Turn off automatic comment insertion
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+"Spell checking
+set spellfile=~/.vim/spellfile.add
+set spelllang=en_us

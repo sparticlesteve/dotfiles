@@ -1,6 +1,9 @@
 "Syntax highlighting
 syntax on
 
+"Dark background colors
+set background=dark
+
 "Search pattern highlighting
 set hlsearch
 
